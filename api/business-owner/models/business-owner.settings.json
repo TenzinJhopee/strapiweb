@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "business_owners",
+  "info": {
+    "name": "BusinessOwner"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "Password": {
+      "type": "password"
+    },
+    "PhoneNumber": {
+      "type": "biginteger"
+    }
+  }
+}

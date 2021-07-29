@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/business-owners",
+      "handler": "business-owner.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/business-owners/count",
+      "handler": "business-owner.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/business-owners/:id",
+      "handler": "business-owner.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/business-owners",
+      "handler": "business-owner.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/business-owners/:id",
+      "handler": "business-owner.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/business-owners/:id",
+      "handler": "business-owner.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
